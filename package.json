@@ -1,0 +1,30 @@
+{
+    "name": "hubot-yesnowtf",
+    "version": "1.0.0",
+    "description": "Hubot script that displays yesno.wtf response",
+    "main": "yesnowtf.coffee",
+    "author": {
+        "name": "Etienne Marais",
+        "email": "etienne.marais@olx.com",
+        "url": "https://github.com/etiennemarais"
+    },
+    "keywords": [
+        "hubot",
+        "hubot-scripts",
+        "yesnowtf",
+        "questions",
+        "slack",
+        "scripts"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/etiennemarais/hubot-yesnowtf.git"
+    },
+    "bugs": {
+        "url": "https://github.com/etiennemarais/hubot-yesnowtf/issues"
+    },
+    "dependencies": {
+        "coffee-script": "^1.9.0"
+    }
+}
