@@ -11,7 +11,7 @@ hubot: No way José.
 (The `@hubot` changes depending on your bot's name)
 
 ## How it works
-When a question is detected it randomly chooses a response from a pre-populated list of response. It can also respond with a yes/no gif from the yesno.wtf api.
+When a yes/no question is detected it randomly chooses a response from a pre-populated list of response. It can also respond with a yes/no gif from the yesno.wtf api.
 
 ## Installation
 Run the following command to install this module as a Hubot dependency
