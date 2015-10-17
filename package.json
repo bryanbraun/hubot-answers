@@ -1,17 +1,16 @@
 {
-    "name": "hubot-yesnowtf",
-    "version": "1.0.2",
-    "description": "Hubot script that displays yesno.wtf response",
-    "main": "yesnowtf.coffee",
+    "name": "hubot-answers",
+    "version": "0.0.1",
+    "description": "Teaches hubot to answer your yes/no questions",
+    "main": "answers.coffee",
     "author": {
-        "name": "Etienne Marais",
-        "email": "etienne.marais@olx.com",
-        "url": "https://github.com/etiennemarais"
+        "name": "Bryan Braun",
+        "email": "bryan@heysparkbox.com",
+        "url": "http://bryanbraun.com"
     },
     "keywords": [
         "hubot",
         "hubot-scripts",
-        "yesnowtf",
         "questions",
         "slack",
         "scripts"
@@ -19,10 +18,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/etiennemarais/hubot-yesnowtf.git"
-    },
-    "bugs": {
-        "url": "https://github.com/etiennemarais/hubot-yesnowtf/issues"
+        "url": "git+https://github.com/sparkbox/hubot-answer.git"
     },
     "dependencies": {
         "coffee-script": "^1.9.0"
