@@ -12,7 +12,7 @@
 
 questions = require './data/questions.json'
 answers = require './data/answers.json'
-regex = new RegExp questions.join('|'), 'gi'
+regex = new RegExp ",?\s*(#{questions.join('|')})", 'gi'
 
 getTextAnswer = (msg) ->
   textAnswer = answers[Math.floor(Math.random() * answers.length)];
