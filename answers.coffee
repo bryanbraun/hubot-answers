@@ -19,7 +19,7 @@ getTextAnswer = (msg) ->
   msg.send(textAnswer)
 
 getGifAnswer = (msg) ->
-  msg.http("http://yesno.wtf/api").get() (err, res, body) ->
+  msg.http("https://yesno.wtf/api").get() (err, res, body) ->
     data = JSON.parse body
     msg.send(data.answer + " : " + data.image)
 
